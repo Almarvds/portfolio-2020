@@ -19,24 +19,28 @@ class OtherPage extends Component {
 
 
   setDropDown = (event) => {
-    console.log('clicked button')
     if(event === 1){
-      if(!(this.state.left === false && this.state.open ===true)){
+      console.log('1')
+      if(this.state.open === false || this.state.left ===true){
         this.setState({open: !this.state.open})
+        this.props.triggerPhaseShift()
       }
       this.setState({left: !this.state.left, middle: false, right: false});
     } else if(event === 2){
-      if(!(this.state.middle === false && this.state.open ===true)){
+      console.log('2')
+      if(this.state.open === false || this.state.middle ===true){
         this.setState({open: !this.state.open})
+        this.props.triggerPhaseShift()
       }
       this.setState({middle: !this.state.middle, left:false, right:false});
     } else{
-      if(!(this.state.right === false && this.state.open ===true)){
+      console.log('3')
+      if(this.state.open === false || this.state.right ===true){
         this.setState({open: !this.state.open})
+        this.props.triggerPhaseShift()
       }
       this.setState({right: !this.state.right, left:false, middle:false});
     }
-    this.props.triggerPhaseShift()
   }
 
   scrollDown(){

@@ -30,11 +30,6 @@ function Viewpager(){
     )
   }
 
-  function blockScroll(){
-    console.log('blocking scroll')
-    test = !test;
-  }
-
   const bind = useDrag(({ down, movement: [mx], direction: [xDir], distance, cancel }) => {
     if(test){
       if (down && distance > window.innerWidth / 2){
