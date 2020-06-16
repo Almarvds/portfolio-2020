@@ -47,7 +47,7 @@ class OtherPage extends Component {
             duration: 2500,
           });
       },
-      500
+      100
     );
   }
 
