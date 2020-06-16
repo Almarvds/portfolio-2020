@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  user-select: none;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto,
+    segoe ui, arial, sans-serif;
+  overflow-x: hidden;
+}
+
+#root {
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+}
+
+#root > div {
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  will-change: transform;
+}
+
+#root > div > div {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+  box-shadow: 0 62.5px 125px -25px rgba(50, 50, 73, 0.5), 0 37.5px 75px -37.5px rgba(0, 0, 0, 0.6);
+}
+
+.circle{
+  width: 20vw;
+  height: 20vw;
+  background-color: white;
+  border-radius: 50%;
+  border:none;
+  border-color: none;
+}
+
+.lowered{
+  margin-top: 10vh;
+}
+
+.triangle{
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #F6F6F7;
+}
+
+.dropDownBox{
+  width:100%;
+  height:80vh;
+  margin-bottom:2%;
+  background-color:#F6F6F7;
+  box-shadow: 0 62.5px 125px -5px rgba(50, 50, 73, 0.5), 0 37.5px 75px -37.5px rgba(0, 0, 0, 0.6);
+}
