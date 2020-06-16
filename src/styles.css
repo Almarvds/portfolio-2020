@@ -39,8 +39,8 @@ body {
 }
 
 .circle{
-  width: 20vw;
-  height: 20vw;
+  width: 30vh;
+  height: 30vh;
   background-color: white;
   border-radius: 50%;
   border:none;
@@ -57,6 +57,7 @@ body {
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   border-bottom: 100px solid #F6F6F7;
+  margin-top: -3vh
 }
 
 .dropDownBox{

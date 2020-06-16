@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Collapse, Button, Fade } from 'react-bootstrap';
+import imageList from './imageList.js'
+import {titles, subtexts} from './title_subtext.js'
+console.log(imageList)
 
 var Scroll = require('react-scroll');
 var scroll = Scroll.animateScroll;
@@ -19,7 +22,9 @@ class OtherPage extends Component {
 
 
   setDropDown = (event) => {
-    if(event === 0){this.setState({open: false, left: false, middle: false, right: false});
+    if(event === 0){
+      this.setState({open: false, left: false, middle: false, right: false});
+      this.props.triggerPhaseShift()
     } else if(event === 1){
       if(this.state.open === false || this.state.left ===true){
         this.setState({open: !this.state.open})
@@ -44,12 +49,12 @@ class OtherPage extends Component {
   scrollDown(){
     setTimeout(
       function() {
-          scroll.scrollTo(window.innerHeight*3/4,{
+          scroll.scrollTo(window.innerHeight*9/10,{
             smooth:'easeOutQuint',
             duration: 2500,
           });
       },
-      100
+      200
     );
   }
 
@@ -63,7 +68,7 @@ class OtherPage extends Component {
     return(
       <div>
         <Row>
-          <div className='circle'>
+          <div className='circle' style = {{margin: '2vw', backgroundSize: 'contain', backgroundImage: `url(${imageList[numCircle-1]})`}}>
             <Button onClick={() => this.setDropDown(numCircle)} style={{boxShadow:'none',height:'100%',
             width:'100%',backgroundColor:'transparent', border:'none'}}/>
           </div>
@@ -84,7 +89,20 @@ class OtherPage extends Component {
       <div>
       <Container>
         <Row style={{color:'black', paddingTop:'15vh'}}>
-          <Col className='text-center'><h1 style={{fontSize:'5rem'}}>Title</h1></Col>
+          <Col md="auto" className='text-center mx-auto'>
+            <Row>
+            <h1 className='text-center mx-auto'
+            style={{fontSize:'3rem',backgroundColor:'rgba(255,255,255,0.8)' , padding:'3vh', borderRadius: '5%'}}>
+              {titles[this.props.number]}
+            </h1>
+            </Row>
+            <Row >
+              <h3 className='text-center mx-auto'
+              style={{backgroundColor:'rgba(255,255,255,0.8)' , padding:'3vh', borderRadius: '5%'}}>
+                {subtexts[this.props.number]}
+              </h3>
+            </Row>
+          </Col>
         </Row>
         <Row className="justify-content-md-center">
           <Col md="auto">
@@ -101,7 +119,7 @@ class OtherPage extends Component {
           <Fade onEntered = {this.scrollDown()}>
             <Row>
               <div className='dropDownBox'>
-                <div class="ml-auto close" style = {{margin:'2%', height:'3vh',width:'3vh', backgroundImage: `url(${process.env.PUBLIC_URL}/Close.svg)`}}>
+                <div className="ml-auto close" style = {{margin:'2%', height:'3vh',width:'3vh', backgroundImage: `url(${process.env.PUBLIC_URL}/Close.svg)`}}>
                   <Button onClick={() => this.setDropDown(0)} style={{boxShadow:'none',height:'100%',
                   width:'100%',backgroundColor:'transparent', border:'none'}}/>
                 </div>
