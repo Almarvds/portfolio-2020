@@ -45,6 +45,34 @@ body {
   border-radius: 50%;
   border:none;
   border-color: none;
+  margin: 2vw;
+  background-size: contain;
+  -webkit-box-shadow: 0px 0px 28px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 28px 0px rgba(0,0,0,1);
+  box-shadow: 0px 0px 28px 0px rgba(0,0,0,1);
+}
+
+.circle:hover {
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,1);
+  box-shadow: 0px 0px 40px 0px rgba(0,0,0,1);
+  animation-name: stretch;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-direction: alternate;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
 }
 
 .lowered{
@@ -61,7 +89,7 @@ body {
 }
 
 .dropDownBox{
-  width:100%;
+  width:80%;
   height:80vh;
   margin-bottom:2%;
   background-color:#F6F6F7;
@@ -71,4 +99,61 @@ body {
 .close:hover{
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+}
+
+.seeThroughBox{
+  background-color:rgba(255,255,255,0.95);
+  padding:3vh;
+  border-radius: 1vh;
+  -webkit-box-shadow: 0px 0px 28px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 28px 0px rgba(0,0,0,1);
+  box-shadow: 0px 0px 28px 0px rgba(0,0,0,1);
+}
+
+.swipe{
+  margin: 2vw;
+  color: white;
+  background-size: contain;
+  animation-name: spop;
+  animation-duration: 8s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-direction: alternate;
+  user-select: none; /* Standard */
+}
+
+.swipe.left{
+  animation-name: spopLeft;
+}
+
+@keyframes spop {
+  0% {
+    opacity: 0;
+  }
+  70%{
+    transform: translate(0vw,-1vh) rotate(1deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(-3.5vw,1vh) rotate(-3deg);
+    opacity: 1;
+  }
+}
+
+@keyframes spopLeft {
+  0% {
+    opacity: 0;
+  }
+  70%{
+    transform: translate(0vw,-1vh) rotate(-1deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(3.5vw,1vh) rotate(3deg);
+    opacity: 1;
+  }
 }

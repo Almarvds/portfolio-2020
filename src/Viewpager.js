@@ -25,7 +25,7 @@ function Viewpager(){
 
   function Divs(data){
     return(
-      <div style={{backgroundColor:'rgba(0,0,0,0.4)', height:'100%'}}>
+      <div style={{backgroundColor:'rgba(0,0,0,0.3)', height:'100%'}}>
       <OtherPage number={data.number} triggerPhaseShift={() => {test = !test}}/>
       </div>
     )
