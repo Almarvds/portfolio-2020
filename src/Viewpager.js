@@ -24,7 +24,6 @@ function Viewpager(){
   }))
 
   function Divs(data){
-    console.log(data.number)
     return(
       <OtherPage number={data.number} triggerPhaseShift={() => {test = !test}}/>
     )

@@ -19,22 +19,20 @@ class OtherPage extends Component {
 
 
   setDropDown = (event) => {
-    if(event === 1){
-      console.log('1')
+    if(event === 0){this.setState({open: false, left: false, middle: false, right: false});
+    } else if(event === 1){
       if(this.state.open === false || this.state.left ===true){
         this.setState({open: !this.state.open})
         this.props.triggerPhaseShift()
       }
       this.setState({left: !this.state.left, middle: false, right: false});
     } else if(event === 2){
-      console.log('2')
       if(this.state.open === false || this.state.middle ===true){
         this.setState({open: !this.state.open})
         this.props.triggerPhaseShift()
       }
       this.setState({middle: !this.state.middle, left:false, right:false});
     } else{
-      console.log('3')
       if(this.state.open === false || this.state.right ===true){
         this.setState({open: !this.state.open})
         this.props.triggerPhaseShift()
@@ -102,7 +100,12 @@ class OtherPage extends Component {
         <Collapse in={this.state.open}>
           <Fade onEntered = {this.scrollDown()}>
             <Row>
-              <div className='dropDownBox'></div>
+              <div className='dropDownBox'>
+                <div class="ml-auto close" style = {{margin:'2%', height:'3vh',width:'3vh', backgroundImage: `url(${process.env.PUBLIC_URL}/Close.svg)`}}>
+                  <Button onClick={() => this.setDropDown(0)} style={{boxShadow:'none',height:'100%',
+                  width:'100%',backgroundColor:'transparent', border:'none'}}/>
+                </div>
+              </div>
             </Row>
           </Fade>
         </Collapse>
