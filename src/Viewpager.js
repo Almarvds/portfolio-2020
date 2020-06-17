@@ -7,10 +7,18 @@ import OtherPage from './components/otherpage.js'
 
 const pages = [
   'https://images.pexels.com/photos/62689/pexels-photo-62689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-  'https://images.pexels.com/photos/296878/pexels-photo-296878.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+  'https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260',
   'https://images.pexels.com/photos/1509428/pexels-photo-1509428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
   'https://images.pexels.com/photos/351265/pexels-photo-351265.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
   'https://images.pexels.com/photos/924675/pexels-photo-924675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+]
+
+const colors = [
+  '#203828',
+  '#193138',
+  '#212436',
+  '#251738',
+  '#38171A'
 ]
 
 function Viewpager(){
@@ -47,7 +55,7 @@ function Viewpager(){
   return(
     props.map(({ x, display, scale }, i) => (
     <animated.div {...bind()} key={i} style= {{ display, x, padding:'2%' }}>
-      <animated.div style={{ scale, backgroundImage: `url(${pages[i]})` }}>
+      <animated.div style={{ scale, backgroundColor: `${colors[i]}` }}>
         <Divs number={i}/>
       </animated.div>
     </animated.div>

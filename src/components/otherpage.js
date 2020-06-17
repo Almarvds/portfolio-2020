@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Collapse, Button, Fade } from 'react-bootstrap';
+import { Row, Col, Collapse, Button, Fade } from 'react-bootstrap';
 import imageList from './imageList.js'
 import {titles, subtexts} from './title_subtext.js'
 console.log(imageList)
@@ -59,6 +59,8 @@ class OtherPage extends Component {
   }
 
   circle(numCircle){
+    var imageNumber = (this.props.number)*3 + numCircle-1
+    if(this.props.number>2){imageNumber--}
     var stateDirection = ''
     if(numCircle === 1){stateDirection = this.state.left}
     else if(numCircle === 2){ stateDirection = this.state.middle}
@@ -68,9 +70,13 @@ class OtherPage extends Component {
     return(
       <div>
         <Row>
-          <div className='circle grow' style = {{backgroundImage: `url(${imageList[numCircle-1]})`}}>
-            <Button onClick={() => this.setDropDown(numCircle)} style={{boxShadow:'none',height:'100%',
-            width:'100%',backgroundColor:'transparent', border:'none'}}/>
+          <div className='circle grow' style = {{backgroundImage: `url(${imageList[imageNumber]})`}}>
+            <Button onClick={() => this.setDropDown(numCircle)} style={{
+              boxShadow:'none',
+              height:'100%',
+              width:'100%',
+              backgroundColor: 'transparent',
+              border: 'none'}}/>
           </div>
         </Row>
         <Row className="justify-content-md-center">
@@ -85,25 +91,25 @@ class OtherPage extends Component {
   }
 
   circleRow(){
-    if(this.props.number===0 || this.props.number=== 1 || this.props.number===2){
+    if(this.props.number===2){
       return(
         <Row>
           <Col>
             <div className='swipe left'>
               <h4 style={{paddingLeft:'1.5vw'}}>Swipe</h4>
-              <img draggable="false" className = 'ml-auto' style={{width:'15vh', height:'15vh'}} src={process.env.PUBLIC_URL+'/swipe.svg'}/>
+              <img alt='' draggable="false" className = 'ml-auto hand' src={process.env.PUBLIC_URL+'/swipe.svg'}/>
             </div>
+          </Col>
+          <Col md="auto">
+            {this.circle(1)}
           </Col>
           <Col md="auto">
             {this.circle(2)}
           </Col>
-          <Col md="auto">
-            {this.circle(3)}
-          </Col>
           <Col className='text-right'>
             <div className='swipe'>
               <h4 style={{}}>Swipe</h4>
-              <img draggable="false" className = 'ml-auto' style={{width:'15vh', height:'15vh'}} src={process.env.PUBLIC_URL+'/swipe.svg'}/>
+              <img alt='' draggable="false" className = 'ml-auto hand' src={process.env.PUBLIC_URL+'/swipe.svg'}/>
             </div>
           </Col>
         </Row>
@@ -114,7 +120,7 @@ class OtherPage extends Component {
         <Col>
           <div className='swipe left'>
             <h4 style={{paddingLeft:'1.5vw'}}>Swipe</h4>
-            <img draggable="false" className = 'ml-auto' style={{width:'15vh', height:'15vh'}} src={process.env.PUBLIC_URL+'/swipe.svg'}/>
+            <img alt='' draggable="false" className = 'ml-auto hand' src={process.env.PUBLIC_URL+'/swipe.svg'}/>
           </div>
         </Col>
           <Col md="auto">
@@ -129,7 +135,7 @@ class OtherPage extends Component {
           <Col className='text-right'>
             <div className='swipe'>
               <h4 style={{}}>Swipe</h4>
-              <img draggable="false" className = 'ml-auto' style={{width:'15vh', height:'15vh'}} src={process.env.PUBLIC_URL+'/swipe.svg'}/>
+              <img alt='' draggable="false" className = 'ml-auto hand' src={process.env.PUBLIC_URL+'/swipe.svg'}/>
             </div>
           </Col>
         </Row>
@@ -159,9 +165,13 @@ class OtherPage extends Component {
           <Fade onEntered = {this.scrollDown()}>
             <Row>
               <div className='mx-auto dropDownBox'>
-                <div className="ml-auto close" style = {{margin:'2%', height:'3vh',width:'3vh', backgroundImage: `url(${process.env.PUBLIC_URL}/Close.svg)`}}>
-                  <Button onClick={() => this.setDropDown(0)} style={{boxShadow:'none',height:'100%',
-                  width:'100%',backgroundColor:'transparent', border:'none'}}/>
+                <div className="ml-auto close" style = {{backgroundImage: `url(${process.env.PUBLIC_URL}/Close.svg)`}}>
+                  <Button onClick={() => this.setDropDown(0)} style={{
+                    boxShadow:'none',
+                    height:'100%',
+                    width:'100%',
+                    backgroundColor: 'transparent',
+                    border: 'none'}}/>
                 </div>
               </div>
             </Row>
