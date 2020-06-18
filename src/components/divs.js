@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col, Button, Card, Nav, Accordion } from 'react-bootstrap';
+import reportLinks from './reportLinks.js'
 
 const divs= [
 
@@ -26,9 +27,9 @@ const divs= [
     </Row>
     <Row>
       <div className = 'buttonRow mx-auto'>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read reflection</Button>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read report</Button>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Check out the video</Button>
+        <Button href={reportLinks[2]} style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read reflection</Button>
+        <Button href={reportLinks[1]} style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read report</Button>
+        <Button href={reportLinks[0]} style={{margin:'2vh'}} variant="outline-secondary" size="lg">Check out the video</Button>
       </div>
     </Row>
   </div>,
@@ -56,8 +57,7 @@ const divs= [
     </Row>
     <Row>
       <div className = 'buttonRow mx-auto'>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read reflection</Button>
-        <Button variant="outline-secondary" size="lg">Read report</Button>
+        <Button href={reportLinks[3]} variant="outline-secondary" size="lg">Read report</Button>
       </div>
     </Row>
   </div>,
@@ -86,9 +86,9 @@ const divs= [
     </Row>
     <Row>
       <div className = 'buttonRow mx-auto'>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read reflection</Button>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read report</Button>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Check out the video</Button>
+        <Button href={reportLinks[6]} style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read reflection</Button>
+        <Button href={reportLinks[5]} style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read report</Button>
+        <Button href={reportLinks[4]} style={{margin:'2vh'}} variant="outline-secondary" size="lg">Check out the video</Button>
       </div>
     </Row>
   </div>,
@@ -117,9 +117,8 @@ const divs= [
     </Row>
     <Row>
       <div className = 'buttonRow mx-auto'>
-      <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read reflection</Button>
-      <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read report</Button>
-      <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Check out the video</Button>
+      <Button href={reportLinks[8]} style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read report</Button>
+      <Button href={reportLinks[7]} style={{margin:'2vh'}} variant="outline-secondary" size="lg">Check out the video</Button>
       </div>
     </Row>
   </div>,
@@ -147,9 +146,8 @@ const divs= [
     </Row>
     <Row>
       <div className = 'buttonRow mx-auto'>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read reflection</Button>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read report</Button>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Check out the video</Button>
+        <Button href={reportLinks[10]} style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read reflection</Button>
+        <Button href={reportLinks[9]} style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read report</Button>
       </div>
     </Row>
   </div>,
@@ -1250,8 +1248,8 @@ const divs= [
     </Row>
     <Row>
       <div className = 'buttonRow mx-auto'>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read report (non-disclosure)</Button>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read reflection (non-disclosure)</Button>
+        <Button href={reportLinks[11]} style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read report (non-disclosure)</Button>
+        <Button href={reportLinks[12]} style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read reflection (non-disclosure)</Button>
       </div>
     </Row>
   </div>,
@@ -1283,9 +1281,9 @@ const divs= [
     </Row>
     <Row>
       <div className = 'buttonRow mx-auto'>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read reflection</Button>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read report</Button>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Check out the video</Button>
+        <Button href={reportLinks[15]} style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read reflection</Button>
+        <Button href={reportLinks[14]} style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read report</Button>
+        <Button href={reportLinks[13]} style={{margin:'2vh'}} variant="outline-secondary" size="lg">Check out the video</Button>
       </div>
     </Row>
   </div>,
@@ -1313,8 +1311,8 @@ const divs= [
     </Row>
     <Row>
       <div className = 'buttonRow mx-auto'>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read reflection</Button>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read report</Button>
+        <Button href={reportLinks[17]} style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read reflection</Button>
+        <Button href={reportLinks[16]} style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read report</Button>
       </div>
     </Row>
   </div>,
@@ -1369,8 +1367,7 @@ const divs= [
     </Row>
     <Row>
       <div className = 'buttonRow mx-auto'>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read reflection</Button>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read report</Button>
+        <Button href={reportLinks[18]} style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read report + reflection</Button>
       </div>
     </Row>
   </div>,
@@ -1397,9 +1394,8 @@ const divs= [
     </Row>
     <Row>
       <div className = 'buttonRow mx-auto'>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read reflection</Button>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read report</Button>
-        <Button style={{margin:'2vh'}} variant="outline-secondary" size="lg">Check out the video</Button>
+        <Button href={reportLinks[8]} style={{margin:'2vh'}} variant="outline-secondary" size="lg">Read report</Button>
+        <Button href={reportLinks[7]} style={{margin:'2vh'}} variant="outline-secondary" size="lg">Check out the video</Button>
       </div>
     </Row>
   </div>

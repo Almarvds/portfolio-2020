@@ -24,7 +24,6 @@ const colors = [
 function Viewpager(){
   const index = useRef(2)
   var test = true
-  console.log('this thing')
   const [props, set] = useSprings(pages.length, i => ({
     x: i * window.innerWidth - window.innerWidth*2,
     scale: 1,

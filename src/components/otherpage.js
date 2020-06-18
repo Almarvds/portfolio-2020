@@ -11,7 +11,6 @@ var infoNumber=0;
 class OtherPage extends Component {
   constructor(props) {
       super(props);
-      console.log(props)
       this.state = {
         open:false,
         middle: false,
@@ -24,7 +23,6 @@ class OtherPage extends Component {
 
   setDropDown = (event) => {
     var imageNumber = (this.props.number)*3 + event-1
-    console.log(imageNumber)
     if(this.props.number>2){imageNumber--}
     if(event === 0){
       this.setState({open: false, left: false, middle: false, right: false});
