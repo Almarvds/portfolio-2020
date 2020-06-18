@@ -339,7 +339,7 @@ const divs= [
                 <Col className='middle'>
                   <p> This expertise area describes the ability to create new ideas and shape them accordingly.
                   Shaping a design is also captured in the expertise of realization, which makes it part of the core skillset I am trying to learn.
-                  In my desired industry there is an expected toolset for digital UX that I thus look to learn, most of which I have decided to pick up out¬side of this project.
+                  In my desired industry there is an expected toolset for digital UX that I thus look to learn, most of which I have decided to pick up outtside of this project.
                   This has been one of my weaker competences comparatively, but I still think it is at an okay level because I have a lot of experience ideating for innovation and with digital design software.
                   For the FMP semester, since the ideation was done last semester, I chose to focus on utilizing web frameworks for digital form-giving.
                   I am confident I will be able to master the complete toolset required for digital design and ideation by the time I am entering the professional world. </p>
@@ -352,7 +352,7 @@ const divs= [
                     <Col>
                       <Row>
                         <Col sm={2}>
-                        <p>FMP project</p>
+                        <p>M2.2 FMP project</p>
                         </Col>
                         <Col>
                         <p>This project taught me web design and aesthetic principles.</p>
@@ -403,7 +403,15 @@ const divs= [
                 <h6>Other contributing activities</h6>
                   <Row>
                     <Col>
-                    <p>This project taught me web design and aesthetic principles.</p>
+                    <p>B2.1 project</p>
+                    </Col>
+                    <Col md='auto'>
+                    <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col>
+                    <p>Final Bachelor Project</p>
                     </Col>
                     <Col md='auto'>
                     <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
@@ -447,10 +455,10 @@ const divs= [
                   <Col>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>M2.2 FMP project</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>Here is when I was really able to dive deep into different technologies and learn to develop web applications. At this point I feel really comfortable developing, even if it were my designated role.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -458,10 +466,10 @@ const divs= [
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>M2.1 FMP-prep Project</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>The MVP for my graduation is when I started learning to code for web technologies. All of my past experience had been object oriented only, so the funtional languages were a completely new perspective.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -469,10 +477,10 @@ const divs= [
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>M 1.2 Complex and Adaptive Systems</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>I learned to map out a complex algorithmic problem in smaller individual components and bring them all together correctly.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -480,13 +488,47 @@ const divs= [
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>M1.1 Project</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p> For this project I stepped up to learn Unity and coding for game development. It was a ton of fun, but very difficult.
+                      I was also the sole person responsible in my group, which must have really helped my growth.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col sm={2}>
+                      <p>B3.2 Final Bachelor Project</p>
+                      </Col>
+                      <Col>
+                      <p>This was the first project where I really needed to step up my development game, building a chatbot.
+                      A lot of it was still hardcoded and looking back some of it was a mess. Nonetheless, this was my first real solo technical project, making it a big one</p>
+                      </Col>
+                      <Col md='auto'>
+                      <a href='somehwere'>Report</a>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col sm={2}>
+                      <p>Honors academy project</p>
+                      </Col>
+                      <Col>
+                      <p>This is where I really started to code the right way. After some of the initial courses, I was thinking about coding the wrong way.
+                      During my honors project, I was working with a computer science student on our application.
+                      He taught me the right fundamentals and we were able to practice them immediatly.</p>
+                      </Col>
+                      <Col md='auto'>
+                      <a href='somehwere'>Report</a>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col sm={2}>
+                      <p>Froggy Mobile app</p>
+                      </Col>
+                      <Col>
+                      <p>This is to date my main experience with developing for mobile. This was an interesting experience that I believe could prove really helpful in the future.7u</p>
                       </Col>
                     </Row>
                   </Col>
@@ -498,12 +540,20 @@ const divs= [
               <h6>Other contributing activities</h6>
                 <Row>
                   <Col>
-                  <p>This project taught me web design and aesthetic principles.</p>
-                  </Col>
-                  <Col md='auto'>
-                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  <p>Teaching myself coding principles, extracurricular during Internship</p>
                   </Col>
                 </Row>
+                <Row>
+                  <Col>
+                  <p>Taking a course on Algorithms on Coursera in my free time</p>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                  <p>Doing projects for my own enjoyment</p>
+                  </Col>
+                </Row>
+
               </Col>
             </Row>
           </Card.Body>
@@ -543,10 +593,10 @@ const divs= [
                   <Col>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>M2.2 FMP project</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>In this project I learned to interact and utilize user communities as a means of growing a product user base and finding ambassadors.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -554,10 +604,10 @@ const divs= [
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>M1.1 Project</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>This project taught me how to do user testing in a controlled setting with a difficult target group.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -565,10 +615,10 @@ const divs= [
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>M1.1 Activating your Innovation Radar</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>In the course Activating your innovation radar I learned how to make trade-offs between user needs and business necessities.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -576,10 +626,10 @@ const divs= [
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>B2.1 User-centred Design</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>This course introduced me to the core design principles of user centered design.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -594,7 +644,23 @@ const divs= [
               <h6>Other contributing activities</h6>
                 <Row>
                   <Col>
-                  <p>This project taught me web design and aesthetic principles.</p>
+                  <p>M1.2 Project 2 Design Research</p>
+                  </Col>
+                  <Col md='auto'>
+                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                  <p>B3.2 Tangible and Embodied Interaction</p>
+                  </Col>
+                  <Col md='auto'>
+                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                  <p>Honors academy project</p>
                   </Col>
                   <Col md='auto'>
                   <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
@@ -639,10 +705,22 @@ const divs= [
                   <Col>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>M2.2 FMP project</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>In my graduation project I learned what it really means to be an entrepreneur and saw a lot of the hurdles that you have to face.
+                      This did make me second guess myself from time to time, but it leaves me very strong in the competency.</p>
+                      </Col>
+                      <Col md='auto'>
+                      <a href='somehwere'>Report</a>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col sm={3}>
+                      <p>M1.2 Design Leadership & Entrepreneurship</p>
+                      </Col>
+                      <Col>
+                      <p>This course went very in depth on the different ways of innovating as an intrapreneur or entrepreneur. I learned most of my theoretical fundamentals on the subject here.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -650,10 +728,11 @@ const divs= [
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>M1.1 Activating your innovation radar</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>In this interesting course we worked with a complicated client group and tried to innovate with them on a strategy and service level rather than a product level.
+                      This was something I had not previously done at ID.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -661,21 +740,10 @@ const divs= [
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>B3.1 Internship</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
-                      </Col>
-                      <Col md='auto'>
-                      <a href='somehwere'>Report</a>
-                      </Col>
-                    </Row>
-                    <Row>
-                      <Col sm={2}>
-                      <p>FMP project</p>
-                      </Col>
-                      <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>During this internship is where I made a ton of connections and is when I really got pushed towards the innovation world. I learned the ins and outs of startups and got to meet a ton of founders.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -690,7 +758,7 @@ const divs= [
               <h6>Other contributing activities</h6>
                 <Row>
                   <Col>
-                  <p>This project taught me web design and aesthetic principles.</p>
+                  <p>Honors academy project</p>
                   </Col>
                   <Col md='auto'>
                   <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
@@ -737,10 +805,10 @@ const divs= [
                   <Col>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>M2.2 FMP project</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>In building my graduation project I learned about minimizing computation costs, utilizing and protecting data, and using a machine learning API.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -748,10 +816,10 @@ const divs= [
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>M2.1 Designing with Advanced AI</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>During designing with advanced AI I did one of my all time favorite projects, that uses a tensorflow backend. I also built an algorithm to process speech, learning how to deal with a special type of data like sound.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -759,10 +827,10 @@ const divs= [
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>M1.2 Embodying Intelligent Behavior</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>An interesting course that taught me some basics of visualizing machine learning. It also helped me with doing rapid prototyping for such complicated products.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -770,10 +838,10 @@ const divs= [
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>B3.2 Final Bachelor Project</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>Although not realistically functional, in my FBP I did my first attempt at utilizing machine learning. This is where I learned some of the basic principles of using ML in an app.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -788,10 +856,18 @@ const divs= [
               <h6>Other contributing activities</h6>
                 <Row>
                   <Col>
-                  <p>This project taught me web design and aesthetic principles.</p>
+                  <p>B2.2 Making Sense of Sensors</p>
                   </Col>
                   <Col md='auto'>
                   <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                  <p>Doing a coursera course on machine learning.</p>
+                  </Col>
+                  <Col md='auto'>
+                  <a href='somehwere'>Course link</a>
                   </Col>
                 </Row>
               </Col>
@@ -835,7 +911,7 @@ const divs= [
                       <p>FMP project</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>In this project I had to focus on the development and validation side of the product cycle and learned about how to coordinate that process, as well as how to incorporate potential clients into the design cycle.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -843,10 +919,10 @@ const divs= [
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>M1.2 project</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>This was my first solo research project and in it I learned how to gather meaningful and reproducible results in controlled testing. It also taught me a lot about writing for academia and to this day I am very proud of the results.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -854,10 +930,10 @@ const divs= [
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>M1.1 Constructive design research</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>This course was actually really meaningful for my research development. It teaches how to setup a research plan and how to write a credible paper, which were both very helpful.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -865,10 +941,21 @@ const divs= [
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>FBP project</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>My first solo project, running a design cycle by myself.</p>
+                      </Col>
+                      <Col md='auto'>
+                      <a href='somehwere'>Report</a>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col sm={2}>
+                      <p>B2.1 project</p>
+                      </Col>
+                      <Col>
+                      <p>This project taught me to work with stakeholders and an involved client.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -883,7 +970,39 @@ const divs= [
               <h6>Other contributing activities</h6>
                 <Row>
                   <Col>
-                  <p>This project taught me web design and aesthetic principles.</p>
+                  <p>M1.1 project</p>
+                  </Col>
+                  <Col md='auto'>
+                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                  <p>Honors academy</p>
+                  </Col>
+                  <Col md='auto'>
+                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                  <p>IGMES</p>
+                  </Col>
+                  <Col md='auto'>
+                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                  <p>B3.2 Design Innovation Methods</p>
+                  </Col>
+                  <Col md='auto'>
+                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                  <p>B2.2 Design research</p>
                   </Col>
                   <Col md='auto'>
                   <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
@@ -928,10 +1047,10 @@ const divs= [
                   <Col>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>M2.2 FMP project</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>The final graduation project was very shaping of my communication skills, as it required me to go out and initiate communications with all kinds of different stakeholders and users. Getting real users and clients requires a whole different type of communicating that I did not have to do before.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -939,10 +1058,10 @@ const divs= [
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>M1.1 project</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>In this project I worked with three international students from Asia, with little English experience. This made communication very difficult and I had to really step up my game in that respect. It required me to set crystal clear commitments and group rules so that everyone knew what to do. Overall, that really helped me grow as a leader.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -950,10 +1069,10 @@ const divs= [
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>Honors academy project</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>In this project I lead a multi-disciplinary group into a complicated project. This was the first time where I really had to divide work based on strengths and weaknesses of team members with real consequences.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -961,10 +1080,10 @@ const divs= [
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>IGMES</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>Although i had worked at a corporate, this was my first time collaborating with non-engineers who also had little experience in the professional world. This requires a different type of communication especially when working on technical concepts.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -979,7 +1098,31 @@ const divs= [
               <h6>Other contributing activities</h6>
                 <Row>
                   <Col>
-                  <p>This project taught me web design and aesthetic principles.</p>
+                  <p>B3.1 internship</p>
+                  </Col>
+                  <Col md='auto'>
+                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                  <p>B2.2 design research project</p>
+                  </Col>
+                  <Col md='auto'>
+                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                  <p>B2.1 engineering design</p>
+                  </Col>
+                  <Col md='auto'>
+                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                  <p>B2.1 design project</p>
                   </Col>
                   <Col md='auto'>
                   <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
@@ -1024,10 +1167,11 @@ const divs= [
                   <Col>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>Prof Identity and vision - TA</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>For this competency I have a pretty unique role. Being the TA and having been the one to think up the course exercises for the professional identity and vision course for the last two years, has given me a unique expertise in writing PI&V and setting actionable goals.
+                      I think this has served me very well and I believe that is shown in the fact that most of my PDP goals are also extracurricular, rather than just part of passing courses.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -1038,29 +1182,8 @@ const divs= [
                       <p>FMP project</p>
                       </Col>
                       <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
-                      </Col>
-                      <Col md='auto'>
-                      <a href='somehwere'>Report</a>
-                      </Col>
-                    </Row>
-                    <Row>
-                      <Col sm={2}>
-                      <p>FMP project</p>
-                      </Col>
-                      <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
-                      </Col>
-                      <Col md='auto'>
-                      <a href='somehwere'>Report</a>
-                      </Col>
-                    </Row>
-                    <Row>
-                      <Col sm={2}>
-                      <p>FMP project</p>
-                      </Col>
-                      <Col>
-                      <p>This project taught me web design and aesthetic principles.</p>
+                      <p>Having to adopt a completely new skillset for this project, I had to find different ways of teaching myself technical concepts at a steady pace. I learned to use industry roadmaps and used hacking platforms to practice my skills on my own time.
+                      This is at the core of why I was able to go from zero experience to a fully fledged web application.</p>
                       </Col>
                       <Col md='auto'>
                       <a href='somehwere'>Report</a>
@@ -1075,7 +1198,15 @@ const divs= [
               <h6>Other contributing activities</h6>
                 <Row>
                   <Col>
-                  <p>This project taught me web design and aesthetic principles.</p>
+                  <p>B3.1 Professional identity and vision course</p>
+                  </Col>
+                  <Col md='auto'>
+                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                  <p>Building my own goal planning system and roadmap for all life skills</p>
                   </Col>
                   <Col md='auto'>
                   <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
@@ -1090,6 +1221,9 @@ const divs= [
     </div>
     </Col>
   </Row>
+  <h3 style={{paddingTop:'5vh'}}>Awards</h3>
+  <p>In 2019 I was selected by TheNextWeb for the T500, meaning i was one of the top 500 talents in the digital industry under the age of 26.</p>
+  <img alt='' src= {process.env.PUBLIC_URL+'/images/other/0.png'}/>
   </div>,
 
   /*number 9*/
