@@ -11,6 +11,6 @@ export const subtexts  = [
   'Passionate about user oriented AI.',
   'An experienced front-end developer.',
   'Designer and developer of intelligent products.',
-  'I am a cool cool designer',
-  'I am an entrepreneur mucho gusto'
+  'Proud to be an industrial designer.',
+  'Always looking for the next big thing.'
 ];

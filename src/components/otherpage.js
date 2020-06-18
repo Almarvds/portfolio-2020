@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import { Row, Col, Collapse, Button, Fade } from 'react-bootstrap';
 import imageList from './imageList.js'
 import {titles, subtexts} from './title_subtext.js'
-console.log(imageList)
+import divs from './divs.js'
 
 var Scroll = require('react-scroll');
 var scroll = Scroll.animateScroll;
+var infoNumber=0;
 
 class OtherPage extends Component {
   constructor(props) {
@@ -22,6 +23,9 @@ class OtherPage extends Component {
 
 
   setDropDown = (event) => {
+    var imageNumber = (this.props.number)*3 + event-1
+    console.log(imageNumber)
+    if(this.props.number>2){imageNumber--}
     if(event === 0){
       this.setState({open: false, left: false, middle: false, right: false});
       this.props.triggerPhaseShift()
@@ -30,18 +34,21 @@ class OtherPage extends Component {
         this.setState({open: !this.state.open})
         this.props.triggerPhaseShift()
       }
+      infoNumber = imageNumber
       this.setState({left: !this.state.left, middle: false, right: false});
     } else if(event === 2){
       if(this.state.open === false || this.state.middle ===true){
         this.setState({open: !this.state.open})
         this.props.triggerPhaseShift()
       }
+      infoNumber = imageNumber
       this.setState({middle: !this.state.middle, left:false, right:false});
     } else{
       if(this.state.open === false || this.state.right ===true){
         this.setState({open: !this.state.open})
         this.props.triggerPhaseShift()
       }
+      infoNumber = imageNumber
       this.setState({right: !this.state.right, left:false, middle:false});
     }
   }
@@ -117,12 +124,6 @@ class OtherPage extends Component {
     } else {
       return(
         <Row className="justify-content-md-center">
-        <Col>
-          <div className='swipe left'>
-            <h4 style={{paddingLeft:'1.5vw'}}>Swipe</h4>
-            <img alt='' draggable="false" className = 'ml-auto hand' src={process.env.PUBLIC_URL+'/swipe.svg'}/>
-          </div>
-        </Col>
           <Col md="auto">
             {this.circle(1)}
           </Col>
@@ -131,12 +132,6 @@ class OtherPage extends Component {
           </Col>
           <Col md="auto">
             {this.circle(3)}
-          </Col>
-          <Col className='text-right'>
-            <div className='swipe'>
-              <h4 style={{}}>Swipe</h4>
-              <img alt='' draggable="false" className = 'ml-auto hand' src={process.env.PUBLIC_URL+'/swipe.svg'}/>
-            </div>
           </Col>
         </Row>
       )
@@ -173,6 +168,7 @@ class OtherPage extends Component {
                     backgroundColor: 'transparent',
                     border: 'none'}}/>
                 </div>
+                {divs[infoNumber]}
               </div>
             </Row>
           </Fade>

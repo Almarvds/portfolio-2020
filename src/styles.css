@@ -92,7 +92,6 @@ body {
 
 .dropDownBox{
   width:80%;
-  height:80vh;
   margin-bottom:2%;
   background-color:#F6F6F7;
   box-shadow: 0 62.5px 125px -5px rgba(50, 50, 73, 0.5), 0 37.5px 75px -37.5px rgba(0, 0, 0, 0.6);
@@ -170,4 +169,44 @@ body {
     transform: translate(3.5vw,1vh) rotate(3deg);
     opacity: 1;
   }
+}
+
+.divBase{
+  margin:7.5vh;
+  margin-top: 15vh;
+}
+
+.divBase img{
+  margin-top: 2vh;
+  max-width:100%;
+  max-height: 50vh;
+  border-radius: 1vh;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,1);
+  box-shadow: 0px 0px 14px 0px rgba(0,0,0,1);
+}
+
+.dropText{
+  margin:2%;
+}
+
+.buttonRow{
+  margin-top: 5vh;
+}
+
+.middle{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.accordion{
+  margin-top: 3vh;
+  width:92%;
+}
+
+.accordion img{
+  margin:0;
+  height: 20vh;
+  box-shadow: 0px 0px 14px 0px rgba(0,0,0,0);
 }
