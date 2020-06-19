@@ -356,7 +356,7 @@ const divs= [
                         <p>This project taught me web design and aesthetic principles.</p>
                         </Col>
                         <Col md='auto'>
-                        <a href='somehwere'>Report</a>
+                        <a href={reportLinks[8]}>Report</a>
                         </Col>
                       </Row>
                       <Row>
@@ -367,7 +367,7 @@ const divs= [
                         <p>This project brought out more of the creativity side, where I tried numerous methods to come up with the perfect idea for my graduation project.</p>
                         </Col>
                         <Col md='auto'>
-                        <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                        <a href={reportLinks[19]}>Report & Reflection</a>
                         </Col>
                       </Row>
                       <Row>
@@ -378,7 +378,7 @@ const divs= [
                         <p>This project involved a lot of aesthetics of interaction and communication to the user. I learned about communicating on the right level with a target group and gamifying interaction.</p>
                         </Col>
                         <Col md='auto'>
-                        <a href='somehwere'>Report</a>
+                        <a href={reportLinks[14]}>Report</a> <a href={reportLinks[15]}>Reflection</a>
                         </Col>
                       </Row>
                       <Row>
@@ -389,7 +389,7 @@ const divs= [
                         <p>This course if the introduction to designing usable aesthetics that properly communicate interaction. </p>
                         </Col>
                         <Col md='auto'>
-                        <a href='somehwere'>Report</a>
+                        <a href={reportLinks[20]}>Reflection</a>
                         </Col>
                       </Row>
                     </Col>
@@ -404,7 +404,7 @@ const divs= [
                     <p>B2.1 project</p>
                     </Col>
                     <Col md='auto'>
-                    <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                    <a href={reportLinks[16]}>Report</a> <a href={reportLinks[17]}>Reflection</a>
                     </Col>
                   </Row>
                   <Row>
@@ -412,7 +412,7 @@ const divs= [
                     <p>Final Bachelor Project</p>
                     </Col>
                     <Col md='auto'>
-                    <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                    <a href={reportLinks[21]}>Report & Reflection</a>
                     </Col>
                   </Row>
                 </Col>
@@ -459,7 +459,7 @@ const divs= [
                       <p>Here is when I was really able to dive deep into different technologies and learn to develop web applications. At this point I feel really comfortable developing, even if it were my designated role.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[8]}>Report</a>
                       </Col>
                     </Row>
                     <Row>
@@ -470,7 +470,7 @@ const divs= [
                       <p>The MVP for my graduation is when I started learning to code for web technologies. All of my past experience had been object oriented only, so the funtional languages were a completely new perspective.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[19]}>Report</a>
                       </Col>
                     </Row>
                     <Row>
@@ -481,7 +481,7 @@ const divs= [
                       <p>I learned to map out a complex algorithmic problem in smaller individual components and bring them all together correctly.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[9]}>Report</a> <a href={reportLinks[10]}>Reflection</a>
                       </Col>
                     </Row>
                     <Row>
@@ -493,7 +493,7 @@ const divs= [
                       I was also the sole person responsible in my group, which must have really helped my growth.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[14]}>Report</a> <a href={reportLinks[15]}>Reflection</a>
                       </Col>
                     </Row>
                     <Row>
@@ -505,7 +505,7 @@ const divs= [
                       A lot of it was still hardcoded and looking back some of it was a mess. Nonetheless, this was my first real solo technical project, making it a big one</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[21]}>Report</a>
                       </Col>
                     </Row>
                     <Row>
@@ -518,7 +518,7 @@ const divs= [
                       He taught me the right fundamentals and we were able to practice them immediatly.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[11]}>Report</a> <a href={reportLinks[12]}>Reflection</a>
                       </Col>
                     </Row>
                     <Row>
@@ -538,12 +538,18 @@ const divs= [
               <h6>Other contributing activities</h6>
                 <Row>
                   <Col>
-                  <p>Teaching myself coding principles, extracurricular during Internship</p>
+                  <p>Teaching myself coding principles by learning the oracle docs, extracurricular during Internship</p>
+                  </Col>
+                  <Col md='auto'>
+                  <a href={reportLinks[24]}>Docs</a>
                   </Col>
                 </Row>
                 <Row>
                   <Col>
                   <p>Taking a course on Algorithms on Coursera in my free time</p>
+                  </Col>
+                  <Col md='auto'>
+                  <a href={reportLinks[22]}>Course</a>
                   </Col>
                 </Row>
                 <Row>
@@ -551,7 +557,6 @@ const divs= [
                   <p>Doing projects for my own enjoyment</p>
                   </Col>
                 </Row>
-
               </Col>
             </Row>
           </Card.Body>
@@ -597,7 +602,7 @@ const divs= [
                       <p>In this project I learned to interact and utilize user communities as a means of growing a product user base and finding ambassadors.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[8]}>Report</a>
                       </Col>
                     </Row>
                     <Row>
@@ -608,7 +613,7 @@ const divs= [
                       <p>This project taught me how to do user testing in a controlled setting with a difficult target group.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[14]}>Report</a> <a href={reportLinks[15]}>Reflection</a>
                       </Col>
                     </Row>
                     <Row>
@@ -619,7 +624,7 @@ const divs= [
                       <p>In the course Activating your innovation radar I learned how to make trade-offs between user needs and business necessities.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[25]}>Report</a>
                       </Col>
                     </Row>
                     <Row>
@@ -630,7 +635,7 @@ const divs= [
                       <p>This course introduced me to the core design principles of user centered design.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[26]}>Report</a> <a href={reportLinks[27]}>Reflection</a>
                       </Col>
                     </Row>
                   </Col>
@@ -661,7 +666,7 @@ const divs= [
                   <p>Honors academy project</p>
                   </Col>
                   <Col md='auto'>
-                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  <a href={reportLinks[11]}>Report</a> <a href={reportLinks[12]}>Reflection</a>
                   </Col>
                 </Row>
               </Col>
