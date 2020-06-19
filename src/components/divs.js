@@ -650,7 +650,7 @@ const divs= [
                   <p>M1.2 Project 2 Design Research</p>
                   </Col>
                   <Col md='auto'>
-                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  <a href={reportLinks[5]}>Report</a> <a href={reportLinks[6]}>Reflection</a>
                   </Col>
                 </Row>
                 <Row>
@@ -658,7 +658,7 @@ const divs= [
                   <p>B3.2 Tangible and Embodied Interaction</p>
                   </Col>
                   <Col md='auto'>
-                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  <a href={reportLinks[28]}>Report</a> <a href={reportLinks[29]}>Reflection</a>
                   </Col>
                 </Row>
                 <Row>
@@ -715,7 +715,7 @@ const divs= [
                       This did make me second guess myself from time to time, but it leaves me very strong in the competency.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[8]}>Report</a>
                       </Col>
                     </Row>
                     <Row>
@@ -726,7 +726,7 @@ const divs= [
                       <p>This course went very in depth on the different ways of innovating as an intrapreneur or entrepreneur. I learned most of my theoretical fundamentals on the subject here.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[30]}>Reflection</a>
                       </Col>
                     </Row>
                     <Row>
@@ -738,7 +738,7 @@ const divs= [
                       This was something I had not previously done at ID.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[25]}>Report</a>
                       </Col>
                     </Row>
                     <Row>
@@ -749,7 +749,7 @@ const divs= [
                       <p>During this internship is where I made a ton of connections and is when I really got pushed towards the innovation world. I learned the ins and outs of startups and got to meet a ton of founders.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[18]}>Report & Reflection</a>
                       </Col>
                     </Row>
                   </Col>
@@ -764,7 +764,7 @@ const divs= [
                   <p>Honors academy project</p>
                   </Col>
                   <Col md='auto'>
-                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  <a href={reportLinks[11]}>Report</a> <a href={reportLinks[12]}>Reflection</a>
                   </Col>
                 </Row>
               </Col>
@@ -814,7 +814,7 @@ const divs= [
                       <p>In building my graduation project I learned about minimizing computation costs, utilizing and protecting data, and using a machine learning API.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[8]}>Report</a>
                       </Col>
                     </Row>
                     <Row>
@@ -825,7 +825,7 @@ const divs= [
                       <p>During designing with advanced AI I did one of my all time favorite projects, that uses a tensorflow backend. I also built an algorithm to process speech, learning how to deal with a special type of data like sound.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[1]}>Report</a> <a href={reportLinks[2]}>Reflection</a>
                       </Col>
                     </Row>
                     <Row>
@@ -836,7 +836,7 @@ const divs= [
                       <p>An interesting course that taught me some basics of visualizing machine learning. It also helped me with doing rapid prototyping for such complicated products.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[3]}>Report</a>
                       </Col>
                     </Row>
                     <Row>
@@ -847,7 +847,7 @@ const divs= [
                       <p>Although not realistically functional, in my FBP I did my first attempt at utilizing machine learning. This is where I learned some of the basic principles of using ML in an app.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[21]}>Report & Reflection</a>
                       </Col>
                     </Row>
                   </Col>
@@ -862,7 +862,7 @@ const divs= [
                   <p>B2.2 Making Sense of Sensors</p>
                   </Col>
                   <Col md='auto'>
-                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  <a href={reportLinks[31]}>Report</a> <a href={reportLinks[32]}>Reflection</a>
                   </Col>
                 </Row>
                 <Row>
@@ -870,7 +870,7 @@ const divs= [
                   <p>Doing a coursera course on machine learning.</p>
                   </Col>
                   <Col md='auto'>
-                  <a href='somehwere'>Course link</a>
+                  <a href={reportLinks[23]}>Course</a>
                   </Col>
                 </Row>
               </Col>
@@ -911,24 +911,24 @@ const divs= [
                   <Col>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>M2.2 FMP project</p>
                       </Col>
                       <Col>
                       <p>In this project I had to focus on the development and validation side of the product cycle and learned about how to coordinate that process, as well as how to incorporate potential clients into the design cycle.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[8]}>Report</a>
                       </Col>
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>M1.2 project</p>
+                      <p>M1.2 project design research</p>
                       </Col>
                       <Col>
                       <p>This was my first solo research project and in it I learned how to gather meaningful and reproducible results in controlled testing. It also taught me a lot about writing for academia and to this day I am very proud of the results.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[5]}>Report</a> <a href={reportLinks[6]}>Reflection</a>
                       </Col>
                     </Row>
                     <Row>
@@ -939,29 +939,29 @@ const divs= [
                       <p>This course was actually really meaningful for my research development. It teaches how to setup a research plan and how to write a credible paper, which were both very helpful.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[33]}>Report</a> <a href={reportLinks[34]}>Reflection</a>
                       </Col>
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>FBP project</p>
+                      <p>B3.2 Final bachelor project</p>
                       </Col>
                       <Col>
                       <p>My first solo project, running a design cycle by myself.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[21]}>Report & Reflection</a>
                       </Col>
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>B2.1 project</p>
+                      <p>B2.1 design project</p>
                       </Col>
                       <Col>
                       <p>This project taught me to work with stakeholders and an involved client.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[16]}>Report</a> <a href={reportLinks[17]}>Reflection</a>
                       </Col>
                     </Row>
                   </Col>
@@ -976,7 +976,7 @@ const divs= [
                   <p>M1.1 project</p>
                   </Col>
                   <Col md='auto'>
-                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  <a href={reportLinks[14]}>Report</a> <a href={reportLinks[15]}>Reflection</a>
                   </Col>
                 </Row>
                 <Row>
@@ -984,15 +984,12 @@ const divs= [
                   <p>Honors academy</p>
                   </Col>
                   <Col md='auto'>
-                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  <a href={reportLinks[11]}>Report</a> <a href={reportLinks[12]}>Reflection</a>
                   </Col>
                 </Row>
                 <Row>
                   <Col>
                   <p>IGMES</p>
-                  </Col>
-                  <Col md='auto'>
-                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
                   </Col>
                 </Row>
                 <Row>
@@ -1000,7 +997,7 @@ const divs= [
                   <p>B3.2 Design Innovation Methods</p>
                   </Col>
                   <Col md='auto'>
-                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  <a href={reportLinks[35]}>Report</a> <a href={reportLinks[36]}>Reflection</a>
                   </Col>
                 </Row>
                 <Row>
@@ -1008,7 +1005,7 @@ const divs= [
                   <p>B2.2 Design research</p>
                   </Col>
                   <Col md='auto'>
-                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  <a href={reportLinks[37]}>Report</a> <a href={reportLinks[38]}>Reflection</a>
                   </Col>
                 </Row>
               </Col>
@@ -1056,7 +1053,7 @@ const divs= [
                       <p>The final graduation project was very shaping of my communication skills, as it required me to go out and initiate communications with all kinds of different stakeholders and users. Getting real users and clients requires a whole different type of communicating that I did not have to do before.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[8]}>Report</a>
                       </Col>
                     </Row>
                     <Row>
@@ -1067,7 +1064,7 @@ const divs= [
                       <p>In this project I worked with three international students from Asia, with little English experience. This made communication very difficult and I had to really step up my game in that respect. It required me to set crystal clear commitments and group rules so that everyone knew what to do. Overall, that really helped me grow as a leader.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[14]}>Report</a> <a href={reportLinks[15]}>Reflection</a>
                       </Col>
                     </Row>
                     <Row>
@@ -1078,7 +1075,7 @@ const divs= [
                       <p>In this project I lead a multi-disciplinary group into a complicated project. This was the first time where I really had to divide work based on strengths and weaknesses of team members with real consequences.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[11]}>Report</a> <a href={reportLinks[12]}>Reflection</a>
                       </Col>
                     </Row>
                     <Row>
@@ -1087,9 +1084,6 @@ const divs= [
                       </Col>
                       <Col>
                       <p>Although i had worked at a corporate, this was my first time collaborating with non-engineers who also had little experience in the professional world. This requires a different type of communication especially when working on technical concepts.</p>
-                      </Col>
-                      <Col md='auto'>
-                      <a href='somehwere'>Report</a>
                       </Col>
                     </Row>
                   </Col>
@@ -1104,15 +1098,14 @@ const divs= [
                   <p>B3.1 internship</p>
                   </Col>
                   <Col md='auto'>
-                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
-                  </Col>
+                  <a href={reportLinks[18]}>Report & Reflection </a>
                 </Row>
                 <Row>
                   <Col>
                   <p>B2.2 design research project</p>
                   </Col>
                   <Col md='auto'>
-                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  <a href={reportLinks[37]}>Report</a> <a href={reportLinks[38]}>Reflection</a>
                   </Col>
                 </Row>
                 <Row>
@@ -1120,7 +1113,7 @@ const divs= [
                   <p>B2.1 engineering design</p>
                   </Col>
                   <Col md='auto'>
-                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  <a href={reportLinks[39]}>Report</a>
                   </Col>
                 </Row>
                 <Row>
@@ -1128,7 +1121,7 @@ const divs= [
                   <p>B2.1 design project</p>
                   </Col>
                   <Col md='auto'>
-                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  <a href={reportLinks[16]}>Report</a> <a href={reportLinks[17]}>Reflection</a>
                   </Col>
                 </Row>
               </Col>
@@ -1176,20 +1169,17 @@ const divs= [
                       <p>For this competency I have a pretty unique role. Being the TA and having been the one to think up the course exercises for the professional identity and vision course for the last two years, has given me a unique expertise in writing PI&V and setting actionable goals.
                       I think this has served me very well and I believe that is shown in the fact that most of my PDP goals are also extracurricular, rather than just part of passing courses.</p>
                       </Col>
-                      <Col md='auto'>
-                      <a href='somehwere'>Report</a>
-                      </Col>
                     </Row>
                     <Row>
                       <Col sm={2}>
-                      <p>FMP project</p>
+                      <p>M2.2 FMP project</p>
                       </Col>
                       <Col>
                       <p>Having to adopt a completely new skillset for this project, I had to find different ways of teaching myself technical concepts at a steady pace. I learned to use industry roadmaps and used hacking platforms to practice my skills on my own time.
                       This is at the core of why I was able to go from zero experience to a fully fledged web application.</p>
                       </Col>
                       <Col md='auto'>
-                      <a href='somehwere'>Report</a>
+                      <a href={reportLinks[8]}>Report</a>
                       </Col>
                     </Row>
                   </Col>
@@ -1204,15 +1194,12 @@ const divs= [
                   <p>B3.1 Professional identity and vision course</p>
                   </Col>
                   <Col md='auto'>
-                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
+                  <a href={reportLinks[18]}>Asssignment(appendix)</a>
                   </Col>
                 </Row>
                 <Row>
                   <Col>
                   <p>Building my own goal planning system and roadmap for all life skills</p>
-                  </Col>
-                  <Col md='auto'>
-                  <a href='somehwere'>Report</a> <a href='somehwere'>Reflection</a>
                   </Col>
                 </Row>
               </Col>
