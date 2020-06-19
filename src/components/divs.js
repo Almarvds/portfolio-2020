@@ -1099,6 +1099,7 @@ const divs= [
                   </Col>
                   <Col md='auto'>
                   <a href={reportLinks[18]}>Report & Reflection </a>
+                  </Col>
                 </Row>
                 <Row>
                   <Col>
