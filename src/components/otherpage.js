@@ -20,6 +20,10 @@ class OtherPage extends Component {
       this.setDropDown = this.setDropDown.bind(this);
     }
 
+    componentDidMount(){
+    document.title = "Portfolio - Almar"
+  }
+
 
   setDropDown = (event) => {
     var imageNumber = (this.props.number)*3 + event-1
