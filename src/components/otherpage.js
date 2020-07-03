@@ -27,7 +27,7 @@ class OtherPage extends Component {
 
   setDropDown = (event) => {
     var imageNumber = (this.props.number)*3 + event-1
-    if(this.props.number>2){imageNumber--}
+    if(this.props.number>2){imageNumber-=2}
     if(event === 0){
       this.setState({open: false, left: false, middle: false, right: false});
       this.props.triggerPhaseShift()
@@ -69,7 +69,7 @@ class OtherPage extends Component {
 
   circle(numCircle){
     var imageNumber = (this.props.number)*3 + numCircle-1
-    if(this.props.number>2){imageNumber--}
+    if(this.props.number>2){imageNumber-=2}
     var stateDirection = ''
     if(numCircle === 1){stateDirection = this.state.left}
     else if(numCircle === 2){ stateDirection = this.state.middle}
@@ -111,9 +111,6 @@ class OtherPage extends Component {
           </Col>
           <Col md="auto">
             {this.circle(1)}
-          </Col>
-          <Col md="auto">
-            {this.circle(2)}
           </Col>
           <Col className='text-right'>
             <div className='swipe'>

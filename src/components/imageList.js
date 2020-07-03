@@ -6,7 +6,6 @@ const imageList = [
    process.env.PUBLIC_URL+'images/bubbles/monDemo.png',
    process.env.PUBLIC_URL+'images/bubbles/simulation.png',
    process.env.PUBLIC_URL+'images/bubbles/praatje.31.44.jpeg',
-  'https://images.pexels.com/photos/132340/pexels-photo-132340.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
    process.env.PUBLIC_URL+'images/bubbles/self.jpeg',
    process.env.PUBLIC_URL+'images/bubbles/motion.jpeg',
    process.env.PUBLIC_URL+'images/bubbles/mattth.png',
