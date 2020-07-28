@@ -8,9 +8,9 @@ const divs= [
 
   <div className= 'divBase'>
     <Row>
-      <Col className='middle'>
+      <Row className='middle'>
         <div className = 'dropText'>
-          <h3>Are you a Brabander?</h3>
+          <h4>Are you a Brabander?</h4>
           <h6>Using AI for local accent or dialect recognition</h6>
           <p>Regional inclusion is a topic that comes up all too often in local municipal decision making,
           however when we really think about it, the feeling of inclusion in a region is hard to pin down.
@@ -20,10 +20,10 @@ const divs= [
           In this project I learned to work with industry standard machine learning tools like Tensorflow and learned how to tailor AI to users by allowing users to conrol the dataset.
           </p>
         </div>
-      </Col>
-      <Col className='middle'>
+      </Row>
+      <Row className='middle'>
         <img alt='' style={{width:'100%'}}src= {process.env.PUBLIC_URL+'images/other/bbr.svg'}/>
-      </Col>
+      </Row>
     </Row>
     <Row>
       <div className = 'buttonRow mx-auto'>
@@ -36,12 +36,12 @@ const divs= [
 
   <div className= 'divBase'>
     <Row>
-      <Col className='middle'>
+      <Row className='middle'>
         <img alt='' src= {process.env.PUBLIC_URL+'images/other/bracelets1.jpg'}/>
-      </Col>
-      <Col className='middle'>
+      </Row>
+      <Row className='middle'>
         <div className = 'dropText'>
-          <h3>RecoFriend</h3>
+          <h4>RecoFriend</h4>
           <h6>Predicting friendships through machine learning</h6>
           <p>RecoFriend is a project that I worked on in late 2019.
           These handmade bracelets are meant to be worn at social gatherins or events as a social initiator.
@@ -51,7 +51,7 @@ const divs= [
           It became apparent to me that with machine learning, which is a numbers game, the designer needs to think about what will happen to the experience if a prediction is not correct.
           </p>
         </div>
-      </Col>
+      </Row>
     </Row>
   </div>,
 
@@ -59,23 +59,23 @@ const divs= [
 
   <div className= 'divBase'>
     <Row>
-      <Col className='middle'>
+      <Row className='middle'>
         <div className = 'dropText'>
-          <h3>Paper on ML interaction</h3>
+          <h4>Paper on ML interaction</h4>
           <h6>Towards Guidelines for Designing Human-in-the-Loop Machine Training Interfaces</h6>
           <p> This paper I wrote together with Dr. Mathias Funk in early 2019 discusses evaluation methods for machine training interfaces.
           Considering the increasing applications of machine learning and its availability, we have to consider the user experience of training these systems.
           After all, training big datasets can take a long time, meaning we should find a method that is both efficient in training as well as fast to operate for the human trainer.
           In this study we compare a few different training methods and provide an example of how to structure frameworks to properly assess them.
           This taught me a lot of academic skills, to this day we are still reworking this paper and waiting for it to be accepted to a conference.
-          Aside from the academic skills, it also taught me how to set up a research procedure and collect credible results. To come up with the test I
+          Aside from the academic skills, it also taught me how to set up a research procedure and Rowlect credible results. To come up with the test I
           also had to improve my knowledge on interaction with learning systems and how we can quantify succesful interaction.
           </p>
         </div>
-      </Col>
-      <Col className='middle'>
+      </Row>
+      <Row className='middle'>
         <img alt='' src= {process.env.PUBLIC_URL+'images/other/all_screens.jpg'}/>
-      </Col>
+      </Row>
     </Row>
     <Row>
       <div className = 'buttonRow mx-auto'>
@@ -88,13 +88,13 @@ const divs= [
 
   <div className= 'divBase'>
     <Row>
-      <Col className='middle'>
+      <Row className='middle'>
         <img alt='' src= {process.env.PUBLIC_URL+'images/other/tech stack finak.png'}
-        style={{backgroundColor:'white',padding:'2%'}}/>
-      </Col>
-      <Col className='middle'>
+        style={{backgroundRowor:'white',padding:'2%'}}/>
+      </Row>
+      <Row className='middle'>
         <div className = 'dropText'>
-          <h3>Moneble</h3>
+          <h4>Moneble</h4>
           <h6>Building a cloud hosted full stack application</h6>
           <p>For my graduation project, Moneble, I learned to build a full stack architecture in the cloud.
           This project taught me how to work with a number of technologies, but most of all taught me how web technologies work as a whole.
@@ -103,7 +103,7 @@ const divs= [
           it also gives me a UX advantage with me having a better idea of what is possible and works well on the development side.
           </p>
         </div>
-      </Col>
+      </Row>
     </Row>
     <Row>
       <div className = 'buttonRow mx-auto'>
@@ -116,9 +116,9 @@ const divs= [
 
   <div className= 'divBase'>
     <Row>
-      <Col className='middle'>
+      <Row className='middle'>
         <div className = 'dropText'>
-          <h3>App adoption</h3>
+          <h4>App adoption</h4>
           <h6>Simulating app adoption to inform business strategy</h6>
           <p>In early 2019, I took it upon myself to simulate the adoption of apps across users in an ecosystem.
           This is a complex system because it is influenced by so many parameters that it becomes extremely volatile and hard to predict.
@@ -128,10 +128,10 @@ const divs= [
           When thinking out a model like this, everything needs to work exactly as imagined and the way different factors influence each other all needs to be taken into account.
           </p>
         </div>
-      </Col>
-      <Col className='middle'>
-        <img alt='' src= {process.env.PUBLIC_URL+'images/other/graph.png'} style={{backgroundColor:'white', padding:'2%'}}/>
-      </Col>
+      </Row>
+      <Row className='middle'>
+        <img alt='' src= {process.env.PUBLIC_URL+'images/other/graph.png'} style={{backgroundRowor:'white', padding:'2%'}}/>
+      </Row>
     </Row>
   </div>,
 
@@ -139,15 +139,15 @@ const divs= [
 
   <div className= 'divBase'>
     <Row>
-      <Col>
+      <Row>
         <Row className='justify-content-md-center'>
-        <img alt='' style={{margin:'2%'}} src= {process.env.PUBLIC_URL+'images/other/flutter_app.jpeg'}/>
-        <img alt='' style={{margin:'2%'}} src= {process.env.PUBLIC_URL+'images/other/flutter_app2.jpeg'}/>
+        <img alt='' style={{margin:'3%', width:'40%'}} src= {process.env.PUBLIC_URL+'images/other/flutter_app.jpeg'}/>
+        <img alt='' style={{margin:'3%', width:'40%'}} src= {process.env.PUBLIC_URL+'images/other/flutter_app2.jpeg'}/>
         </Row>
-      </Col>
-      <Col className='middle'>
+      </Row>
+      <Row className='middle'>
         <div className = 'dropText'>
-          <h3>Froggy</h3>
+          <h4>Froggy</h4>
           <h6>A native Flutter application for speech therapy</h6>
           <p>Froggy is the mobile application that we developed for the IGMES speech therapy program.
           As a product, we provided a new rehabilitation methodology for speech therapists, where users were supported to keep talking by a mobile application.
@@ -156,7 +156,7 @@ const divs= [
           This project showcases and makes up my experience in developing and designing for mobile.
           </p>
         </div>
-      </Col>
+      </Row>
     </Row>
   </div>,
 
@@ -164,31 +164,25 @@ const divs= [
 
   <div className= 'divBase'>
     <Row>
-      <Col className='middle'>
+      <Row className='middle'>
         <div className = 'dropText'>
-          <Row>
-            <Col>
-              <h3>About me  </h3>
-            </Col>
-            <Col className= 'col-auto ml-auto'>
-              <Row>
-                <Col>
-                  <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/almarvanderstappen/">
-                    <img id='socialLinks' alt='' src= {process.env.PUBLIC_URL+'linkedin.svg'}/>
-                  </a>
-                </Col>
-                <Col>
-                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Almarvds">
-                    <img id='socialLinks' alt='' src= {process.env.PUBLIC_URL+'github-image.svg'}/>
-                  </a>
-                </Col>
-                <Col>
-                  <a target="_blank" rel="noopener noreferrer" href="mailto:almarvanderstappen@gmail.com">
-                    <img id='socialLinks' alt='' src= {process.env.PUBLIC_URL+'mail.svg'}/>
-                  </a>
-                </Col>
-              </Row>
-            </Col>
+          <h4>About me  </h4>
+          <Row className="justify-content-md-center">
+          <Col>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/almarvanderstappen/">
+            <img id='socialLinks' alt='' src= {process.env.PUBLIC_URL+'linkedin.svg'}/>
+          </a>
+          </Col>
+          <Col>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/Almarvds">
+            <img id='socialLinks' alt='' src= {process.env.PUBLIC_URL+'github-image.svg'}/>
+          </a>
+          </Col>
+          <Col>
+          <a target="_blank" rel="noopener noreferrer" href="mailto:almarvanderstappen@gmail.com">
+            <img id='socialLinks' alt='' src= {process.env.PUBLIC_URL+'mail.svg'}/>
+          </a>
+          </Col>
           </Row>
           <h6>I am a designer and developer of intelligent products</h6>
           <p>Hello! My name is Almar van der Stappen. You might know me from moneble.co or one of the other projects on this page.
@@ -250,7 +244,7 @@ const divs= [
           </div>
           </Row>
         </div>
-      </Col>
+      </Row>
     </Row>
   </div>,
 
@@ -258,9 +252,9 @@ const divs= [
 
   <div className= 'divBase'>
     <Row>
-      <Col className='middle'>
+      <Row className='middle'>
         <div className = 'dropText'>
-          <h3>Go2Home</h3>
+          <h4>Go2Home</h4>
           <h6>Gamified spinal cord injury rehabilitation using motion recognition</h6>
           <p> The Go2Home project was part of the Honors Academy program that I was selected for in the last two years of my bachelor.
           The Honors Academy is reserved for students who show potential in the academic setting and is an opportunity for further development through unique projects.
@@ -270,10 +264,10 @@ const divs= [
           I worked for close to two years in this multi-disciplinary team and most of all I think it made me a stronger leader.
           </p>
         </div>
-      </Col>
-      <Col className='middle'>
+      </Row>
+      <Row className='middle'>
         <img alt='' src= {process.env.PUBLIC_URL+'images/other/gtx.jpeg'}/>
-      </Col>
+      </Row>
     </Row>
   </div>,
 
@@ -281,12 +275,12 @@ const divs= [
 
   <div className= 'divBase'>
     <Row>
-      <Col className='middle'>
+      <Row className='middle'>
         <img alt='' src= {process.env.PUBLIC_URL+'images/other/userTest.JPG'}/>
-      </Col>
-      <Col className='middle'>
+      </Row>
+      <Row className='middle'>
         <div className = 'dropText'>
-          <h3>Mathbuilder</h3>
+          <h4>Mathbuilder</h4>
           <h6>An Augmented Reality game for elementary school classes.</h6>
           <p>In my first master project during late 2018, I built an augmented reality game using the Unity editor.
           This game was meant as a cooperative challenge for students to make elementary education more exciting and engaging.
@@ -298,7 +292,7 @@ const divs= [
           It was also the subject of an academic research paper presented at CHIplay 2019.
           </p>
         </div>
-      </Col>
+      </Row>
     </Row>
     <Row>
       <div className = 'buttonRow mx-auto'>
@@ -311,11 +305,11 @@ const divs= [
 
   <div className= 'divBase'>
     <Row>
-      <Col className='middle'>
+      <Row className='middle'>
         <div className = 'dropText'>
-          <h3>SmartTap</h3>
+          <h4>SmartTap</h4>
           <h6>A sensing tool for visually impaired swimmers</h6>
-          <p> In this project collaboration with Libra, I worked with the Dutch paralympic swim team on one of their sport's core issues.
+          <p> In this project Rowlaboration with Libra, I worked with the Dutch paralympic swim team on one of their sport's core issues.
           The visually impaired swim team are fast and technically proficient, but they lose time when they have to turn in the pool, simply because they are unable to see the edge of it.
           Registration of the end of the pool happens through someone tapping them on the head with a long stick, which is inpractical and outdated.
           This is why we built SmartTap, an auditory guidance system built straight into the swimming cap.
@@ -323,10 +317,10 @@ const divs= [
           This project was later proposed for production by the team at Libra.
           </p>
         </div>
-      </Col>
-      <Col className='middle'>
+      </Row>
+      <Row className='middle'>
         <img alt='' src= {process.env.PUBLIC_URL+'images/other/swimtool.jpeg'}/>
-      </Col>
+      </Row>
     </Row>
   </div>,
 
@@ -334,12 +328,12 @@ const divs= [
 
   <div className= 'divBase'>
     <Row>
-      <Col className='middle'>
+      <Row className='middle'>
         <img alt='' src= {process.env.PUBLIC_URL+'images/other/winner.jpeg'}/>
-      </Col>
-      <Col className='middle'>
+      </Row>
+      <Row className='middle'>
         <div className = 'dropText'>
-          <h3>IGMES</h3>
+          <h4>IGMES</h4>
           <h6>Disrupting speech therapy through digitalization</h6>
           <p>In early 2018, I worked on a business called 'IGMES' which is a dutch abbreviation for 'speaking with a speech inpedement'.
           With a motivated team that included a ton of experience in the speech therapy industry,
@@ -349,7 +343,7 @@ const divs= [
           It takes getting used to to work with people outside of that bubble, which really grew my communication skills. Outside of that, it was my first attempt at setting up a serious business and bringing a product to market.
             </p>
         </div>
-      </Col>
+      </Row>
     </Row>
   </div>,
 
@@ -357,9 +351,9 @@ const divs= [
 
   <div className= 'divBase'>
     <Row>
-      <Col className='middle'>
+      <Row className='middle'>
         <div className = 'dropText'>
-          <h3>Blue tulip awards</h3>
+          <h4>Blue tulip awards</h4>
           <h6>Scouting the best consumer experience startups of the Netherlands</h6>
           <p>When I was 19 I took up for my first real workplace experience at a large corporation.
           During this time I worked for Accenture on what is now called the Blue Tulip Awards.
@@ -369,10 +363,10 @@ const divs= [
           In working with them, I was even able to learn from the top Benelux CEO's and company heads of companies like Google, Wolters Kluwer, Tesla, Hema and TheNextWeb.
           </p>
         </div>
-      </Col>
-      <Col className='middle'>
+      </Row>
+      <Row className='middle'>
         <img alt='' src= {process.env.PUBLIC_URL+'images/other/topmeeting.jpeg'}/>
-      </Col>
+      </Row>
     </Row>
   </div>,
 
@@ -381,19 +375,19 @@ const divs= [
 
   <div className= 'divBase'>
     <Row>
-      <Col className='middle'>
+      <Row className='middle'>
         <img alt='' src= {process.env.PUBLIC_URL+'images/other/resultsOverall.png'}/>
-      </Col>
-      <Col className='middle'>
+      </Row>
+      <Row className='middle'>
         <div className = 'dropText'>
-          <h3>Moneble</h3>
+          <h4>Moneble</h4>
           <h6>Building an AI based SaaS startup</h6>
           <p>Moneble is the first business I have started where I did everything myself.
           From the idea to its development, design, marketing, finances and in the end sales.
           It also taught me how to handle every aspect of a product road to market, giving me a good amount of
           experience when it comes to everything that goes into running a startup. </p>
         </div>
-      </Col>
+      </Row>
     </Row>
     <Row>
       <div className = 'buttonRow mx-auto'>

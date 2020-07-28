@@ -22,14 +22,6 @@ const colors = [
 ]
 
 function Viewpager(){
-  const index = useRef(2)
-  var test = true
-  const [props, set] = useSprings(pages.length, i => ({
-    x: i * window.innerWidth - window.innerWidth*2,
-    scale: 1,
-    display: 'block'
-  }))
-
   function Divs(data){
     return(
       <div style={{backgroundColor:'rgba(0,0,0,0.3)', height:'100%'}}>
@@ -37,6 +29,14 @@ function Viewpager(){
       </div>
     )
   }
+  
+  const index = useRef(2)
+  var test = true
+  const [props, set] = useSprings(pages.length, i => ({
+    x: i * window.innerWidth - window.innerWidth*2,
+    scale: 1,
+    display: 'block'
+  }))
 
   const bind = useDrag(({ down, movement: [mx], direction: [xDir], distance, cancel }) => {
     if(test){
@@ -54,7 +54,7 @@ function Viewpager(){
   return(
     props.map(({ x, display, scale }, i) => (
     <animated.div {...bind()} key={i} style= {{ display, x, padding:'2%' }}>
-      <animated.div style={{ scale, backgroundColor: `${colors[i]}` }}>
+      <animated.div  style={{ scale, backgroundColor: `${colors[i]}` }}>
         <Divs number={i}/>
       </animated.div>
     </animated.div>
