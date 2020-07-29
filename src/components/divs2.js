@@ -68,7 +68,7 @@ const divs= [
           After all, training big datasets can take a long time, meaning we should find a method that is both efficient in training as well as fast to operate for the human trainer.
           In this study we compare a few different training methods and provide an example of how to structure frameworks to properly assess them.
           This taught me a lot of academic skills, to this day we are still reworking this paper and waiting for it to be accepted to a conference.
-          Aside from the academic skills, it also taught me how to set up a research procedure and Rowlect credible results. To come up with the test I
+          Aside from the academic skills, it also taught me how to set up a research procedure and Collect credible results. To come up with the test I
           also had to improve my knowledge on interaction with learning systems and how we can quantify succesful interaction.
           </p>
         </div>
@@ -309,7 +309,7 @@ const divs= [
         <div className = 'dropText'>
           <h4>SmartTap</h4>
           <h6>A sensing tool for visually impaired swimmers</h6>
-          <p> In this project Rowlaboration with Libra, I worked with the Dutch paralympic swim team on one of their sport's core issues.
+          <p> In this project collaboration with Libra, I worked with the Dutch paralympic swim team on one of their sport's core issues.
           The visually impaired swim team are fast and technically proficient, but they lose time when they have to turn in the pool, simply because they are unable to see the edge of it.
           Registration of the end of the pool happens through someone tapping them on the head with a long stick, which is inpractical and outdated.
           This is why we built SmartTap, an auditory guidance system built straight into the swimming cap.
