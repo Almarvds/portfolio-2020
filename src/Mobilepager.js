@@ -3,7 +3,7 @@ import OtherPage from './components/otherpage.js'
 import { Row, Col, Collapse, Button, Fade } from 'react-bootstrap';
 import imageList from './components/imageList.js'
 import {titles, subtexts} from './components/title_subtext.js'
-import divs from './components/divs2.js'
+import divs from './components/divs.js'
 import { Component } from 'react';
 
 
