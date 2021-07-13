@@ -10,7 +10,7 @@ export const titles = [
 export const subtexts  = [
   'An experienced front-end developer.',
   'Passionate about user oriented AI and automated futures.',
-  'Designer and developer of intelligent products.',
+  'AI product Designer',
   'Proud to be an industrial designer.',
   'Always looking for the next big thing.'
 ];

@@ -193,8 +193,15 @@ const divs= [
           I am very passionate about the crossroads of AI & Design and have pursued that interest both in business and academia. With that, I have
           grown into a digital designer and developer focused on innovation road to market and high fidelity prototyping. Most of my experience with this comes from working in and around startups.
           As a designer I bring a unique angle being able to design and prototype full-stack solutions, learning systems and tons of other stuff from scratch, while maintaining a user-centered perspective.
-          If you are interested in getting in touch, don't hesitate to contact me through my socials or simply shoot me an email.
+          In the latest steps of my career, I have been mainly concerned with artificial chat and voice, which I absolutely love!
+          If you are interested in getting in touch and discussing any of these topics, don't hesitate to contact me through my socials or simply shoot me an email.
           </p>
+          <h6>Education</h6>
+            <ul>
+          <li><b>MSc. Industrial Design</b> Eindhoven University of technology</li>
+          <li><b>Honors degree</b> Eindhoven University of technology</li>
+          <li><b>BSc. Industrial Design</b> Eindhoven University of technology</li>
+            </ul>
           <h6>Awards</h6>
             <ul>
           <li><b>TNW T500</b> | Top 500 digital talents under 26 in the Netherlands 2019-2020</li>
