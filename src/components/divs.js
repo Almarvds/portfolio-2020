@@ -16,7 +16,7 @@ const divs= [
         <div className = 'dropText'>
           <h3>Moneble</h3>
           <h6>Building a cloud hosted full stack application</h6>
-          <p>For my graduation project, Moneble, I learned to build a full stack architecture in the cloud.
+          <p>To build Moneble, I learned to build a full stack architecture in the cloud.
           This project taught me how to work with a number of technologies, but most of all taught me how web technologies work as a whole.
           I believe that this really sets me apart as a designer, as it allows me to prototype unique solutions.
           Aside from being a better developer and helping me prototype more intricate products,
@@ -208,7 +208,7 @@ const divs= [
             </ul>
           <h6>Publications</h6>
           <ul>
-          <li><b>Towards Guidelines for Designing Human-in-the-Loop Machine Training Interfaces</b> | van der Stappen, A., Funk, M. (2021, April) tba.</li>
+          <li><b>Towards Guidelines for Designing Human-in-the-Loop Machine Training Interfaces</b> | van der Stappen, A., Funk, M. (2021, April) IUI '21: 26th International Conference on Intelligent User InterfacesApril 2021 Pages 514–519</li>
           <li><b>MathBuilder: A collaborative AR math game for elementary school students</b> | van der Stappen, A., Liu, Y., Xu, J., Yu, X., Li, J., & Van Der Spek, E. D. (2019, October).
           MathBuilder: A collaborative AR math game for elementary school students. In Extended Abstracts of the Annual Symposium on Computer-Human Interaction in Play Companion Extended Abstracts (pp. 731-738).</li>
           </ul>
@@ -242,6 +242,11 @@ const divs= [
             <img className='iconFade' alt='' src= {process.env.PUBLIC_URL+'icons/unity.png'}  style={{animationDelay:'1.1s'}}/>
           </div>
           <div className='iconContainer'>
+            <img className='iconFade' alt='' src= {process.env.PUBLIC_URL+'icons/Atlassian-Logo.png'}  style={{animationDelay:'1.8s'}}/>
+          </div>
+          </Row>
+          <Row style={{marginLeft:'4vw'}}>
+          <div className='iconContainer'>
             <img className='iconFade' alt='' src= {process.env.PUBLIC_URL+'icons/flutter.png'}  style={{animationDelay:'1.2s'}}/>
           </div>
           <div className='iconContainer'>
@@ -261,6 +266,18 @@ const divs= [
           </div>
           <div className='iconContainer'>
             <img className='iconFade' alt='' src= {process.env.PUBLIC_URL+'icons/notion.png'}  style={{animationDelay:'1.8s'}}/>
+          </div>
+          <div className='iconContainer'>
+            <img className='iconFade' alt='' src= {process.env.PUBLIC_URL+'icons/notion.png'}  style={{animationDelay:'1.8s'}}/>
+          </div>
+          <div className='iconContainer'>
+            <img className='iconFade' alt='' src= {process.env.PUBLIC_URL+'icons/Chatleyer.png'}  style={{animationDelay:'1.8s'}}/>
+          </div>
+          <div className='iconContainer'>
+            <img className='iconFade' alt='' src= {process.env.PUBLIC_URL+'icons/LucidChart.png'}  style={{animationDelay:'1.8s'}}/>
+          </div>
+          <div className='iconContainer'>
+            <img className='iconFade' alt='' src= {process.env.PUBLIC_URL+'icons/botsociety.png'}  style={{animationDelay:'1.8s'}}/>
           </div>
           </Row>
         </div>
