@@ -268,7 +268,7 @@ const divs= [
             <img className='iconFade' alt='' src= {process.env.PUBLIC_URL+'icons/notion.png'}  style={{animationDelay:'1.8s'}}/>
           </div>
           <div className='iconContainer'>
-            <img className='iconFade' alt='' src= {process.env.PUBLIC_URL+'icons/notion.png'}  style={{animationDelay:'1.8s'}}/>
+            <img className='iconFade' alt='' src= {process.env.PUBLIC_URL+'icons/DialogFlow.png'}  style={{animationDelay:'1.8s'}}/>
           </div>
           <div className='iconContainer'>
             <img className='iconFade' alt='' src= {process.env.PUBLIC_URL+'icons/Chatleyer.png'}  style={{animationDelay:'1.8s'}}/>
