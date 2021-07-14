@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+df-messenger {
+ --df-messenger-button-titlebar-color: #181926;
+ --df-messenger-send-icon: #181926;
+}
