@@ -11,7 +11,7 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-scroll": "^1.7.16",
     "react-spring": "^9.0.0-rc.3",
     "react-use-gesture": "^7.0.15"
